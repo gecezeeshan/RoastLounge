@@ -1,0 +1,12 @@
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\bin\Debug\net8.0\Domain.deps.json
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\bin\Debug\net8.0\Domain.dll
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\bin\Debug\net8.0\Domain.pdb
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\Domain.dll
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\refint\Domain.dll
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\Domain.pdb
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Domain\obj\Debug\net8.0\ref\Domain.dll
