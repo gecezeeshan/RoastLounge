@@ -693,8 +693,8 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../domain/Domain.csproj",
+      "msbuildProject": "../domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -712,11 +712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+      "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+      "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
       "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-      "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\obj\\",
+      "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -731,8 +731,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
-              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
+              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj"
             }
           }
         }

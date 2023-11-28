@@ -6,6 +6,18 @@
     <ProjectReference Include="..\application\Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="microsoft.aspnetcore.mvc" Version="2.2.0" />
+    <PackageReference Include="microsoft.entityFrameworkCore.tools" Version="8.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="microsoft.extensions.diagnostics.healthchecks.entityframeworkcore" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.json" Version="13.0.3" />
+    <PackageReference Include="serilog.aspnetcore" Version="8.0.0" />
+    <PackageReference Include="swashbuckle.aspnetcore" Version="6.5.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>

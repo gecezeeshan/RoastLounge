@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {}
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj": {}
   },
   "projects": {
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
         "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\obj\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
-                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\obj\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"

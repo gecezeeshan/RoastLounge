@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mlsuQ+RD+4rYHJ0gYEEYDHidrry1rvrK57RVTIfKfdWI4iQ/qtdQJZT0ZkeOVQJTTDX1Nw+8B709mU/Z4qXRFw==",
+  "dgSpecHash": "3/9yYboNx9Rl4dpdlIKxsV6vKXtZ128NvoIEo5/7cDBpJiXCxUYiimSRPGXhqc7AamLQsh9vyc94nhtB6YSO0g==",
   "success": true,
-  "projectFilePath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+  "projectFilePath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

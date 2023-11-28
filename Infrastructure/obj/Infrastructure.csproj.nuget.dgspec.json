@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj": {}
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
     "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj": {
@@ -132,14 +132,14 @@
         }
       }
     },
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj": {
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\obj\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"

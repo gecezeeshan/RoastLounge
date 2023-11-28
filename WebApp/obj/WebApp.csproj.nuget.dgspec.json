@@ -4,14 +4,14 @@
     "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
         "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\obj\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
-                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\obj\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -132,14 +132,14 @@
         }
       }
     },
-    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj": {
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\obj\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -154,11 +154,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {
-                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj"
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj"
               },
-              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
-                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj"
               }
             }
           }
@@ -173,6 +173,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "microsoft.entityframeworkcore.SqlServer": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -228,14 +232,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {
-                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj"
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj"
               },
-              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
-                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj"
               },
-              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj"
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -249,6 +253,34 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "microsoft.aspnetcore.mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.entityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "serilog.aspnetcore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "swashbuckle.aspnetcore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
