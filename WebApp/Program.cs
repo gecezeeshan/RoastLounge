@@ -13,7 +13,7 @@ namespace WeebAPI
     public class Program
     {
         public async static Task Main(string[] args){
-            var configuration = new ConfigurationBuilder().AddJsonFile("appsettign.json").Build();
+            var configuration = new ConfigurationBuilder().AddJsonFile("appsetting.json").Build();
             Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
 
             Log.Information("Application starting up!");

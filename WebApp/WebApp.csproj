@@ -17,6 +17,11 @@
     <PackageReference Include="serilog.aspnetcore" Version="8.0.0" />
     <PackageReference Include="swashbuckle.aspnetcore" Version="6.5.0" />
   </ItemGroup>
+   <ItemGroup>
+      <Content Include="appsetting.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+   </ItemGroup>
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
