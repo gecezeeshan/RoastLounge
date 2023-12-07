@@ -9,8 +9,8 @@ namespace Infrastructure.Persistence
 {
     public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
-        private readonly IDateTime _dateTime;
-        public ApplicationDbContext(DbContextOptions options, IDateTime dateTime) : base(options)
+        private readonly IDateTime? _dateTime;
+        public ApplicationDbContext(DbContextOptions options, IDateTime? dateTime) : base(options)
         {
             _dateTime = dateTime;
         }

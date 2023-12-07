@@ -1,47 +1,45 @@
-﻿using Microsoft.Extensions.Configuration;
+using Application;
+using Infrastructure;
 using Serilog;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.DependencyInjection;
-using Infrastructure.Persistence;
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
 
+// builder.Services.AddCors(o =>
+// {
+//     o.AddPolicy("DevCorsPolicy", b => b.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+// });
+/*
+builder.Services.AddApplication();
+builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddHttpContextAccessor();
 
-namespace WeebAPI
+builder.Services.AddControllers();
+
+builder.Services.AddSwaggerGen(c =>
 {
-    public class Program
-    {
-        public async static Task Main(string[] args){
-            var configuration = new ConfigurationBuilder().AddJsonFile("appsetting.json").Build();
-            Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "WebAPI", Version = "v1", });
+});
 
-            Log.Information("Application starting up!");
 
-            var host = CreateHostBuilder(args).Build();
-            using (var scope = host.Services.CreateScope()){
-                    var services = scope.ServiceProvider;
-                try
-                {
-                    var context = services.GetRequiredService<ApplicationDbContext>();
-                    if(context.Database.IsSqlServer())
-                    {}
-                }
-                catch (System.Exception ex)
-                {
-                    
-                    
-                }
 
-            }
+// if (env.IsDevelopment())
+// {
+    //app.UseDeveloperExceptionPage();
+   // app.UseCors("DevCorsPolicy");
+    //app.UseMigrationsEndPiont();
+    //app.UseSwagger();
+   // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
+// }
+// else
+// {
+//     app.UseExceptionHandler("/Error");
+//     app.UseHsts();
+// }
 
-        }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) => 
-        Host.CreateDefaultBuilder(args).UseSerilog().ConfigureWebHostDefaults(webBuilder => {webBuilder.UseStartup<Startup>();
-        
-        } );
-
-    }
-    
-}
+// app.UseSerilogRequestLogging();
+// app.UseStaticFiles();
+// app.UseRouting();
+//app.UseEndpoints(e => { e.MapControllers(); });
+*/
+app.MapGet("/", () => "Hello World!");
+app.Run();

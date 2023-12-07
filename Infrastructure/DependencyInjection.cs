@@ -22,7 +22,10 @@ public static class DependencyInjection
                 ));
         }
 
-        services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
+        services.AddScoped<IApplicationDbContext>(provider =>
+         provider.GetService<ApplicationDbContext>()
+         );
+         
         //services.AddTransient<IDateTime, DateTimeService>();
         return services;
     }
