@@ -21,8 +21,10 @@ namespace Application.Common.Behaviours
         {
             var requestName = typeof(TRequest).Name;
 
-            var userId = _currentUserService.UserId ?? string.Empty;
-            var userName = _currentUserService.UserName ?? string.Empty;
+            // var userId = _currentUserService.UserId ?? string.Empty;
+            // var userName = _currentUserService.UserName ?? string.Empty;
+             var userId = string.Empty;
+            var userName =  string.Empty;
 
             await Task.Run(() =>
             {

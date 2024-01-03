@@ -1,5 +1,6 @@
 ﻿using Application.Common.Interfaces;
 using Infrastructure.Persistence;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,7 +27,7 @@ public static class DependencyInjection
          provider.GetService<ApplicationDbContext>()
          );
          
-        //services.AddTransient<IDateTime, DateTimeService>();
+        services.AddTransient<IDateTime, DateTimeService>();
         return services;
     }
 
