@@ -693,8 +693,8 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../domain/Domain.csproj",
-      "msbuildProject": "../domain/Domain.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -712,11 +712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
+      "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
+      "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-      "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\obj\\",
+      "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -731,8 +731,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
-              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj"
+            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
+              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
             }
           }
         }
@@ -780,7 +780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "G:\\dotnet-sdk-8.0.100-preview.1.23115.2-win-x64\\sdk\\8.0.100-preview.1.23115.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "G:\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

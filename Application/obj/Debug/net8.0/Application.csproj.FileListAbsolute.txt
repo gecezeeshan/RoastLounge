@@ -13,3 +13,4 @@ G:\Zeeshan\projects\sample\sample_core\RoastLounge\Application\obj\Debug\net8.0\
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Application\bin\Debug\net8.0\Domain.dll
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Application\bin\Debug\net8.0\Domain.pdb
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Application\obj\Debug\net8.0\Application.sourcelink.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hJSD8/cZqmVZ3yV/ym1N1hpq/ttGukg3jqDxTvOb4qvLtToldm35TDT19x6uVkCEkmTt1PgO8FaH+hd+bjGIrg==",
+  "dgSpecHash": "yzFTxM/b0M4pJIjMBb7pHcwgkXuVla2jxWveYmFgxCwdzZzFUadv9TaKEDmL+nn0Di6Bxaz9OPsEOazZGptd9g==",
   "success": true,
-  "projectFilePath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj",
+  "projectFilePath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeeshan.ali\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
     "C:\\Users\\zeeshan.ali\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.0\\fluentvalidation.dependencyinjectionextensions.11.8.0.nupkg.sha512",

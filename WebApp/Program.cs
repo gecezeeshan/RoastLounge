@@ -5,6 +5,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore;
+
+
 using Serilog;
 using Application.Common.Interfaces;
 using Infrastructure.Persistence;
@@ -50,6 +53,7 @@ var app = builder.Build();
 //     app.UseExceptionHandler("/Error");
 //     app.UseHsts();
 // }
+app.UseMigrationsEndPoint();
   app.UseDeveloperExceptionPage();
    app.UseSwagger();
    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));

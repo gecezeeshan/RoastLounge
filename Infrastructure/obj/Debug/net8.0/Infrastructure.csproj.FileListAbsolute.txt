@@ -15,3 +15,4 @@ G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\bin\Debug\net8
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\bin\Debug\net8.0\Domain.pdb
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\bin\Debug\net8.0\Application.pdb
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CopyComplete
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
