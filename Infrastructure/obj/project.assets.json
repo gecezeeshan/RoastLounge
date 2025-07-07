@@ -2945,13 +2945,13 @@
     },
     "Application/1.0.0": {
       "type": "project",
-      "path": "../application/Application.csproj",
-      "msbuildProject": "../application/Application.csproj"
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../domain/Domain.csproj",
-      "msbuildProject": "../domain/Domain.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2965,35 +2965,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zeeshan.ali\\.nuget\\packages\\": {}
+    "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-      "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\obj\\",
+      "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\",
+      "outputPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Syed Zeeshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj": {
-              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\application\\Application.csproj"
+            "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\application\\Application.csproj": {
+              "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\application\\Application.csproj"
             },
-            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj": {
-              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\domain\\Domain.csproj"
+            "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj": {
+              "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj"
             }
           }
         }
@@ -3041,7 +3043,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "G:\\dotnet-sdk-8.0.100-preview.1.23115.2-win-x64\\sdk\\8.0.100-preview.1.23115.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

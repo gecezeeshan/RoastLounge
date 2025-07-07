@@ -10,6 +10,7 @@ using Application.Common.Interfaces;
 using Infrastructure.Persistence;
 using Web.Services;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -50,6 +51,7 @@ var app = builder.Build();
 //     app.UseExceptionHandler("/Error");
 //     app.UseHsts();
 // }
+ app.UseMigrationsEndPoint();
   app.UseDeveloperExceptionPage();
    app.UseSwagger();
    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));

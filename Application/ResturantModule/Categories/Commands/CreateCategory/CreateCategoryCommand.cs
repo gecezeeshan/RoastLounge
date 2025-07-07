@@ -11,13 +11,10 @@ namespace Application.ResturantModule.Categories.CreateCategory
 
  public class CreateCategoryCommand: IRequest<int>
  {
- public int Id {get; set;}   
- public string? CategoryName {get; set;}
- public string? CategoryDescription {get; set;}
-
-    public string? CategoryImage {get; set;}
-
-    public ICollection<Cuisine>? Cuisines {get; set;}   
+     public int Id {get; set;}   
+     public string? CategoryName {get; set;}
+     public string? CategoryDescription {get; set;}
+     public string? CategoryImage {get; set;}
  }
 
  
@@ -36,8 +33,7 @@ namespace Application.ResturantModule.Categories.CreateCategory
             var entity = new Category{
                 CategoryName = request.CategoryName,
                 CategoryDescription = request.CategoryDescription,
-                CategoryImage = request.CategoryImage,
-                Cuisines = request.Cuisines
+                CategoryImage = request.CategoryImage
             };
 
             //var results 

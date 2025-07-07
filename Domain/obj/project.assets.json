@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zeeshan.ali\\.nuget\\packages\\": {}
+    "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
-      "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\obj\\",
+      "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\",
+      "outputPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zeeshan.ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Syed Zeeshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "G:\\dotnet-sdk-8.0.100-preview.1.23115.2-win-x64\\sdk\\8.0.100-preview.1.23115.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
