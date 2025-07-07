@@ -15,6 +15,7 @@ G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\bin\Debug\net8
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\bin\Debug\net8.0\Domain.pdb
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\bin\Debug\net8.0\Application.pdb
 G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CopyComplete
+<<<<<<< HEAD
 D:\ZEESHAN\Projects\Sample\Core\RoastLounge\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
 D:\ZEESHAN\Projects\Sample\Core\RoastLounge\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
 D:\ZEESHAN\Projects\Sample\Core\RoastLounge\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
@@ -33,3 +34,6 @@ D:\ZEESHAN\Projects\Sample\Core\RoastLounge\Infrastructure\obj\Debug\net8.0\Infr
 D:\ZEESHAN\Projects\Sample\Core\RoastLounge\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 D:\ZEESHAN\Projects\Sample\Core\RoastLounge\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\ZEESHAN\Projects\Sample\Core\RoastLounge\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+=======
+G:\Zeeshan\projects\sample\sample_core\RoastLounge\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c

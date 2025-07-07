@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "PMsMGxYUz9ZGvjUEkec0mLIQyPO17bALzKC7lP6YCtFAt0GRqR9vIiOZoC5fOyt8I+NOkmF9wrWbEOSwV2gwXw==",
   "success": true,
   "projectFilePath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+=======
+  "dgSpecHash": "13xCH3SRahJ7vLEYdW2tqbs6Xdk1Mj4aJ8sao7MYBVnyrT2+aVcsdLt50WxasFIMkR0823hbkizZFLw6k+XlfA==",
+  "success": true,
+  "projectFilePath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
   "expectedPackageFiles": [
     "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

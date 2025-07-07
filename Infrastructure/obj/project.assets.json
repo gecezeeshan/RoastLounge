@@ -2991,11 +2991,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\application\\Application.csproj": {
               "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\application\\Application.csproj"
             },
             "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj": {
               "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj"
+=======
+            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {
+              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj"
+            },
+            "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
+              "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
             }
           }
         }
@@ -3043,7 +3051,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "G:\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
       }
     }
   }

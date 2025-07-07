@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\",
         "outputPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Application\\obj\\",
+=======
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj": {}
+  },
+  "projects": {
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\obj\\",
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Syed Zeeshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +42,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj": {
                 "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj"
+=======
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
               }
             }
           }
@@ -77,6 +96,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -89,6 +109,20 @@
         "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\",
         "outputPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Domain\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "G:\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\obj\\",
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Syed Zeeshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,6 +166,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -144,6 +179,20 @@
         "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Syed Zeeshan\\.nuget\\packages\\",
         "outputPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\Infrastructure\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "G:\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\zeeshan.ali\\.nuget\\packages\\",
+        "outputPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Infrastructure\\obj\\",
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Syed Zeeshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,11 +209,19 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\application\\Application.csproj": {
                 "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\application\\Application.csproj"
               },
               "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj": {
                 "projectPath": "D:\\ZEESHAN\\Projects\\Sample\\Core\\RoastLounge\\domain\\Domain.csproj"
+=======
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Application\\Application.csproj"
+              },
+              "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj": {
+                "projectPath": "G:\\Zeeshan\\projects\\sample\\sample_core\\RoastLounge\\Domain\\Domain.csproj"
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
               }
             }
           }
@@ -212,7 +269,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "G:\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 9b81bd600ef81da6a69058c9228506b7a6dec84c
         }
       }
     }
